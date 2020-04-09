@@ -1,0 +1,243 @@
+@charset "UTF-8";
+
+/* --------------------------------
+ * base
+ * -------------------------------- */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    color: #333;
+    font-size: 1.2rem;
+    font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+
+    background-image: url("/laravelapp/public/assets/img/tesukiwashi-pattern-07.jpg");
+
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #24b06e;
+    text-decoration: none;
+}
+
+/* --------------------------------
+ * parts
+ * -------------------------------- */
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.adbar{
+    width: 100%;
+    height: 30px;
+    background-color: #444444;
+    color: white;
+}
+
+.adsidebar{
+    float: left;
+    width: 160px;
+    height: 870px;
+    background-color: #444444;
+    color: white;
+}
+
+.admainmain{
+    height: 870px;
+    overflow: hidden;
+    width: auto;
+}
+.ad-top-menu{
+    text-align: left;
+    float: left;
+}
+
+
+.ad-top-menu .ad-bar-item{
+    display: inline-block;
+    margin: 0 10px;
+
+}
+.ad-top-menu .ad-bar-item a{
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+
+.ad-top-menu-secondary{
+    text-align: right;
+    float: right;
+
+}
+
+.ad-top-menu-secondary .ad-bar-item{
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.ad-top-menu-secondary .ad-bar-item a{
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+.adwrapper{
+    clear: both;
+
+}
+
+.side-nav .side-nav-item{
+    margin: 0px 10px;
+}
+
+.side-nav .side-nav-item a{
+    font-size: 1.6rem;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+
+
+}
+.side-nav-item i{
+    float: left;
+    margin-right: 5px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.sub-nav-item {
+    background-color: #2c2c2c;
+    margin: unset;
+}
+
+.side-nav .sub-nav-item a{
+    font-size: 1.4rem;
+    display: block;
+    height: 35px;
+    line-height: 35px;
+    padding: 0 10px;
+
+}
+
+.inputatricle{
+    width: 100%;;
+    height: 80%;
+}
+
+
+
+.signinspacewrap{
+
+    width: 800px;
+    background-color: #fdfdfd;
+    margin:  100px auto;
+    border: solid #8c8c8c 2px;
+}
+.userlistwrap{
+
+}
+
+.login_header{
+    text-align:  center;
+    font-size: 2.5rem;
+    background-color: #dadcdc;
+    height: 50px;
+    padding: 10px;
+    border-bottom: solid #8c8c8c 1.5px;
+}
+
+.userlist_header{
+    font-size: 2.5rem;
+    height: 50px;
+    padding: 10px;
+}
+
+.login_header_space{
+    height: 50px;
+}
+
+.userlist_space{
+    height: 50px;
+}
+
+.signinspace{
+    margin: 20px auto;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.userlistspace{
+    margin: 20px 0;
+    font-size: 1.8rem;
+    background-color: white;
+    opacity: 0.5;
+}
+
+.signinspaceinner{
+    margin: 0;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.userlistspaceinner{
+//    background-color: #ff5d7f;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.form-controll{
+    width: 300px;
+    height: 30px;
+    border-radius:.25rem;
+}
+
+.formtable{
+    border-collapse: separate;  /* 表の線と線の間を空ける */
+    border-spacing: 20px;
+
+}
+
+.userlisttable{
+    border-collapse: separate;  /* 表の線と線の間を空ける */
+    border-spacing: 0;
+}
+
+.button {
+    display       : inline-block;
+    border-radius : 8%;          /* 角丸       */
+    font-size     : 10pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 10px 12px;   /* 余白       */
+    background    : rgba(0, 140, 255, 0.90);     /* 背景色     */
+    color         : #ffffff;     /* 文字色     */
+    line-height   : 1em;         /* 1行の高さ  */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 2px 2px 1.5px #666666;  /* 影の設定 */
+    border        : 2px solid rgba(0, 140, 255, 0.90);    /* 枠の指定 */
+}
+.button:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    color         : rgba(0, 140, 255, 0.90);     /* 背景色     */
+    background    : #ffffff;     /* 文字色     */
+}
+
+.kk{
+   // background-color: yellow;
+    width: 550px;
+}
+
+.kkk{
+   // background-color: yellow;
+    width: 50px;
+}
+
+
